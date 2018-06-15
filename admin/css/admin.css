@@ -1,0 +1,447 @@
+/*Red = #7c1919*/
+/*Yellow =  #fff42a*/
+/*Dark Grey = #222222*/
+/*Light Grey = #929292*/
+/*Black = #252525*/
+/*White = #fff*/
+
+::selection {
+  background: #fff42a;
+  color: #252525;
+}
+
+::-moz-selection {
+  background: #fff42a;
+  color: #252525;
+}
+
+
+/* Admin Login */
+
+#loginBodyWrapper
+{
+	background-color: #929292;
+	height: 100vh;
+}
+
+#CMSLogin
+{
+	padding-top: 10%;
+}
+
+#CMSLogin h2
+{
+	font-size: 2em;
+	color: #fff;
+	text-align: center;
+	font-family: 'Raleway', Arial, Times, Serif;
+}
+
+#adminLoginLogo
+{
+	display: block;
+	margin: 0 auto;
+	max-width: 250px;
+	margin-bottom: 40px;
+}
+
+#CMSLoginBox
+{
+	background-color: #222222;
+	padding: 30px;
+	border-radius: 3px;
+}
+
+.adminLoginInput
+{
+	background-color: #fff;
+	border-radius: 3px;
+	border: none;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	font-family: 'Raleway', Arial, Times, Serif;
+}
+
+.adminLoginInput:focus
+{
+	box-shadow: none;
+	border: none;
+}
+
+#adminLoginSubmit
+{
+	background-color: #fff42a;
+	padding: 8px;
+	border-radius: 3px;
+	border: none;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	font-family: 'Raleway', Arial, Times, Serif;
+	font-weight: 700;
+	color: #222222;
+	margin-top: 10px;
+	transition: .3s ease-in-out all;
+	cursor: pointer;
+}
+
+#adminLoginSubmit:hover
+{
+	background-color: #7c1919;
+	color: #fff;
+}
+
+#adminLoginError
+{
+	text-align: center;
+	color: #fff42a;
+	font-family: 'Raleway', Arial, Times, Serif;
+}
+
+
+/* Admin general */
+
+#CMSTopBar
+{
+	background-color: #354044;
+	padding: 5px 0px;
+}
+
+#CMSTopBar h1
+{
+	color: #fff;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', Arial, Times, Serif;
+	font-weight: 700;
+}
+
+#CMSTopBar p
+{
+	color: #fff;
+	font-size: .75em;
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', Arial, Times, Serif;
+}
+
+.CMSnav
+{
+	float: right;
+	font-family: 'Raleway', Arial, Times, Serif;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after
+{
+	border-color: #fff transparent transparent;
+}
+
+.CMSnav a
+{
+	color: #fff;
+	transition: .3s ease-in-out all;
+}
+
+.CMSnav a:hover
+{
+	color: #fff42a;
+	border-left: 3px solid #fff42a;
+	padding-left: 5px;
+}
+
+.topBarDropdownMenu
+{
+	background-color: #354044;
+	border: none;
+	border-bottom: 4px solid #fff42a;
+}
+
+.CMSCon
+{
+	padding: 30px 0px;
+}
+
+.CMSConDropdown
+{
+	padding: 5px;
+	background-color: #354044;
+	width: 210px;
+	margin-bottom: 30px;
+}
+
+.CMSoptions
+{
+	font-family: 'Raleway', Arial, Times, Serif;
+}
+
+.CMSoptions a
+{
+	color: #fff;
+	transition: .3s ease-in-out all;
+}
+
+.CMSoptions a:hover
+{
+	color: #fff42a;
+}
+
+.CMSoptions ul li ul 
+{
+	background-color: #354044;
+	border: none;
+	list-style: none;
+	padding: 10px;
+	width: 175px;
+	margin: 0;
+	border-right: 4px solid #fff42a;
+}
+
+.CMSleft h2
+{
+	color: #7c1919;
+	font-family: 'Raleway', Arial, Times, Serif;
+	font-weight: 400;
+	font-size: 1.75em;
+}
+
+.CMSright
+{
+	padding: 30px 10px;
+	margin: 20px 0px;
+	border-top: 6px solid #7c1919;
+}
+
+.editAllLabel {
+	color: #252525;
+	font-family: 'Raleway', Arial, Times, Serif;
+	font-weight: 400;
+	font-size: 1.25em;
+}
+
+.editAllInput {
+	background-color: #354044;
+	border: none;
+	box-shadow: none;
+	color: #fff;
+	font-family: 'Raleway', Arial, Times, Serif;
+	font-weight: 400;
+	font-size: .875em;
+}
+
+.editAllInput:focus {
+	background-color: #354044;
+	border: none;
+	box-shadow: none;
+	color: #fff;
+	font-family: 'Raleway', Arial, Times, Serif;
+	font-weight: 400;
+	font-size: .875em;
+}
+
+.editAlltextarea {
+	background-color: #354044;
+	border: none;
+	box-shadow: none;
+	color: #fff;
+	font-family: 'Raleway', Arial, Times, Serif;
+	font-weight: 400;
+	font-size: .875em;
+	height: 150px;
+}
+
+.editAlltextarea:focus {
+	background-color: #354044;
+	border: none;
+	box-shadow: none;
+	color: #fff;
+	font-family: 'Raleway', Arial, Times, Serif;
+	font-weight: 400;
+	font-size: .875em;
+}
+
+.editAllSubmit {
+	border: none;
+	color: #354044;
+	font-family: 'Raleway', Arial, Times, Serif;
+	font-weight: 700;
+	font-size: 1em;
+	background-color: #fff42A;
+	padding: 8px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .3s ease-in-out all;
+	margin-top: 20px;
+	float: right;
+}
+
+.editAllSubmit:hover {
+	background-color: #7c1919;
+	color: #fff;
+}
+
+/* Edit/Add User */
+
+#addEditUserWrapper
+{
+	padding: 40px 0px;
+}
+
+#addEditUserWrapper label
+{
+	color: #252525;
+	font-family: 'Raleway', Arial, Times, Serif;
+	font-weight: 400;
+	font-size: .8em;
+}
+
+.hideChar
+{
+	-webkit-text-security: disc;
+}
+
+.inputAddEdit
+{
+	border: 0px;
+	height: 50px;
+	background-color: #354044;
+	margin-bottom: 8px;
+	color: #fff;
+	font-family: 'Raleway', Arial, Times, Serif;
+}
+
+.inputAddEdit:focus
+{
+	box-shadow: none;
+	background-color: #354044;
+	border: none;
+	
+}
+
+#addEditUserWrapper select
+{
+	border: 0px;
+	height: 50px;
+	background-color: #354044;
+	margin-bottom: 8px;
+	color: #fff;
+	font-family: 'Raleway', Arial, Times, Serif;
+	cursor: pointer;
+	margin-top: 22px;
+}
+
+#addEditUserWrapper select:focus
+{
+	box-shadow: none;
+	background-color: #354044;
+	border: none;
+}
+
+#addEditSubmit
+{
+	float: right;
+	border: 0px;
+	background-color: #7c1919;
+	padding: 8px 25px;
+	border-radius: 3px;
+	color: #fff;
+	font-family: 'Raleway', Arial, Times, Serif;
+	cursor: pointer;
+	font-size: 1em;
+	transition: .3s ease-in-out all;
+	margin-top: 20px;
+}
+
+#addEditSubmit:hover
+{
+	background-color: #fff42a;
+	color: #222222;
+}
+
+#addEditUserWrapper p
+{
+	color: #354044;
+	font-size: 1em;
+	margin-top: 25px;
+	font-family: 'Raleway', Arial, Times, Serif;
+}
+
+/* Delete Landing Images */
+
+.DellandImgCon {
+	background-color: #222222;
+	padding: 5px;
+	color: #fff;
+	font-family: 'Raleway', Arial, Times, Serif;
+	font-size: .875em;
+	text-align: center;
+}
+
+.delConBut {
+	background-color: #222222;
+	margin-bottom: 20px;
+	font-family: 'Raleway', Arial, Times, Serif;
+	font-size: .875em;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.delConBut a {
+	color: #FFF42A;
+	transition: .3s ease-in-out all;
+	font-weight: 700;
+}
+
+.delConBut a:hover {
+	opacity: .5;
+}
+
+/* Success Page */
+
+#successCon
+{
+	padding: 40px 0px;
+}
+
+#successCon h2
+{
+	font-family: 'Raleway', Arial, Times, Serif;
+	font-size: 1.875em;
+	color: #354044;
+	font-weight: 500;
+	text-align: center;
+}
+
+#successCon p
+{
+	font-family: 'Raleway', Arial, Times, Serif;
+	font-size: 1.25em;
+	color: #354044;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#successCon a
+{
+	background-color: #fff42a;
+	padding: 12px 25px;
+	border-radius: 5px;
+	color: #354044;
+	transition: .3s ease-in-out all;
+}
+
+#successCon a:hover
+{
+	background-color: #7c1919;
+	color: #fff;
+}
+
+
+
+
+@media screen and (min-width: 40em) /* 640px */
+{
+	
+	
+}
